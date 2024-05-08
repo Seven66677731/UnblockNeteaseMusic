@@ -106,6 +106,7 @@ server.whitelist = [
 	'://acstatic-dun.126.net',
 	'://[\\w.]*\\.netease.com',
 	'://[\\w.]*\\.163yun.com',
+	'://[\\w.]*\\.gstatic.com',
 ];
 global.cnrelay = config.cnrelay;
 if (config.strict) server.blacklist.push('.*');
